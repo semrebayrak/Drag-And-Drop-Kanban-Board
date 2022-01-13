@@ -33,7 +33,6 @@ function Button(props) {
 
             "@media (max-width: 600px)": {
                 fontSize: '100%',
-
               }
         }
 
@@ -48,12 +47,8 @@ function Button(props) {
         <button
 
             className={css(styles.button)}>
-
-
-
-
+                
             <p className={css(styles.buttonText)}>{props.text}</p>
-
 
         </button>
 
